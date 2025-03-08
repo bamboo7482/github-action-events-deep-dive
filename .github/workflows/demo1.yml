@@ -11,7 +11,7 @@ on:
       - 'feat/**' # feat/new feat/new/button
     # paths:
     #   - 'app/**' # app/components/button.js
-    paths=-ignore:
+    paths-ignore:
       - '.github/workflow/*'
 jobs:
   deploy:
